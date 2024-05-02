@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background:url('../../assets/home.jpg') ;
+    background-size: cover;
+    height: 85vh;
+    padding: 2rem;
+    margin: 5vh;
+    margin-bottom: 2vh;
+  }
+  
+  .header {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    /* background-color: #fff; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .header-text {
+    text-align: center;
+  }
+  
+  .header-text h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .header-text p {
+    color: #666;
+  }
+  
+  .main {
+    width: 70%;
+    margin: 2rem 0;
+    text-align: center;
+    color: #9a9696;;
+  }
+  
+  .visit-gallery {
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+    /* bottom: 0; */
+  }
+  
+  .visit-gallery a {
+    /* background-color: #6; */
+    color: #a9a5a5;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .visit-gallery a:hover{
+    /* background-color: #5c5a5a; */
+    color: white;
+  }
+  .btn{
+    padding: 8px;
+    border-radius: 10px;
+    color: #c0bdbd;
+    border: 2px solid  #888787;
+    background-color: transparent;
+    margin-top: 32px;
+  }
+  .btn:hover{
+    background-color: #5c5a5a;
+    color: white;
+    border: 2px solid  rgb(179, 176, 176);
+  }
+  

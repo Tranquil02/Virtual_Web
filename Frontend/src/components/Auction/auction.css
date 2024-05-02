@@ -1,0 +1,151 @@
+/* Blog3.css */
+
+/* Blog post container */
+.auction-post {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 25px 41px rgba(89, 88, 109, 0.15);
+}
+
+/* Calendar */
+.auction-calendar {
+  background-color: #fff;
+  color: #28303b;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 0 0 10px 0;
+}
+
+/* Author */
+.auction-author {
+  color: #28303b !important;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+/* Title */
+.auction-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 0 !important;
+  color: #28303b;
+}
+
+/* Description */
+.auction-description {
+  color: #28303b;
+  opacity: 0.6;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Read More Button */
+.auction-btn-read-more {
+  padding: 7px 20px;
+  color: #28303b;
+  display: flex;
+  margin: auto;
+  border-color: var(--ezy-theme-color);
+}
+
+.auction-btn-read-more:hover {
+  background-color: rgba(13, 110, 253, 0.9);
+  color: #ffffff;
+}
+
+/* Section container */
+.auction {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .auction {
+    background-color: rgb(255, 255, 255);
+    padding: 70px 0;
+    color: #000;
+  }
+}
+
+/* Heading */
+.auction-heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #28303b;
+  font-family: cursive;
+}
+
+@media (min-width: 991px) {
+  .auction-heading {
+    font-size: 45px;
+  }
+}
+
+/* Subheading */
+.auction-sub-heading {
+  color: #28303b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  opacity: 0.8;
+  padding-left: 1.25rem /* 20px */;
+  padding-right: 1.25rem /* 20px */;
+  margin-bottom: 1rem /* 16px */;
+}
+
+/* Button */
+.auction-btn {
+  padding: 12px 30px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 20px;
+  background-color: rgb(13, 110, 253);
+  border-color: rgb(13, 110, 253);
+}
+
+.auction-btn:hover {
+  color: #ffffff;
+  background-color: rgba(13, 110, 253, 0.9);
+}
+
+/* Author link */
+.auction-author a {
+  color: rgb(13, 110, 253);
+}
+.artCont img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.page_art {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.artCont {
+  margin: 20px;
+}
+
+.date {
+  position: absolute;
+  top: 270px;
+}
+
+.ArtAuthor a {
+  text-decoration: none;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.mb-3 {
+  margin-bottom: 0.75rem /* 12px */;
+}
